@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class ParametersSetter {
+public class Parser {
     public static int[] parseArrayOfInteger(String path) throws FileNotFoundException {
         // Open the file
         File file = new File(path);

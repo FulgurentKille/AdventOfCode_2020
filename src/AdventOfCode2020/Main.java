@@ -1,7 +1,7 @@
 package AdventOfCode2020;
 
-import AdventOfCode2020.utils.ParametersSetter;
-import AdventOfCode2020.utils.PuzzleSolver;
+import AdventOfCode2020.utils.Parser;
+import AdventOfCode2020.utils.Solver;
 
 import java.util.Scanner;
 
@@ -28,8 +28,8 @@ public class Main {
         switch (choix) {
             case "1":
                 try {
-                    int[] numbers = ParametersSetter.parseArrayOfInteger("initPuzzle/1.txt");
-                    int r1 = PuzzleSolver.day1(numbers);
+                    int[] numbers = Parser.parseArrayOfInteger("initPuzzle/1.txt");
+                    int r1 = Solver.day1(numbers);
 
                     System.out.println("Result:" + r1);
                 }catch (Exception e) {
@@ -39,8 +39,8 @@ public class Main {
                 break;
             case "2":
                 try {
-                    int[] numbers = ParametersSetter.parseArrayOfInteger("initPuzzle/1.txt");
-                    int r2 = PuzzleSolver.day2(numbers);
+                    int[] numbers = Parser.parseArrayOfInteger("initPuzzle/1.txt");
+                    int r2 = Solver.day2(numbers);
 
                     System.out.println("Result:" + r2);
                 }catch (Exception e) {

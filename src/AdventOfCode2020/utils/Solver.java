@@ -1,6 +1,6 @@
 package AdventOfCode2020.utils;
 
-public class PuzzleSolver {
+public class Solver {
 
     // Which combinaison of 2 numbers equals 2020. Then return the multiplication of them
     public static int day1(int[] numbers) {
