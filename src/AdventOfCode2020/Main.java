@@ -29,24 +29,18 @@ public class Main {
             case "1":
                 try {
                     int[] numbers = Parser.parseArrayOfInteger("initPuzzle/1.txt");
-                    int r1 = Solver.day1(numbers);
+                    int r1 = Solver.day1_1(numbers);
+                    int r2 = Solver.day1_2(numbers);
 
-                    System.out.println("Result:" + r1);
+                    System.out.println("Result n°1:" + r1);
+                    System.out.println("Result n°2:" + r2);
                 }catch (Exception e) {
                     System.out.println(e.getMessage());
                     System.exit(-1);
                 }
                 break;
             case "2":
-                try {
-                    int[] numbers = Parser.parseArrayOfInteger("initPuzzle/1.txt");
-                    int r2 = Solver.day2(numbers);
-
-                    System.out.println("Result:" + r2);
-                }catch (Exception e) {
-                    System.out.println(e.getMessage());
-                    System.exit(-1);
-                }
+                // TODO
                 break;
             default:
                 System.out.println("Can't match the choice then the program will stop !");

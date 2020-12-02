@@ -3,7 +3,7 @@ package AdventOfCode2020.utils;
 public class Solver {
 
     // Which combinaison of 2 numbers equals 2020. Then return the multiplication of them
-    public static int day1(int[] numbers) {
+    public static int day1_1(int[] numbers) {
         int result = 0;
 
         int i = 0;
@@ -27,7 +27,7 @@ public class Solver {
     }
 
     // Which combinaison of 3 numbers equals 2020. Then return the multiplication of them
-    public static int day2(int[] numbers) {
+    public static int day1_2(int[] numbers) {
         int result = 0;
 
         int i = 0;
